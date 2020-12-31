@@ -92,7 +92,6 @@ export default {
       this.displayForm = true
     },
     submitForm: function() {
-      console.log('Submit form');
       if(this.editFlag) {
         let requestObject ={
           empid: this.empId,
